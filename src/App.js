@@ -1,23 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+// TODO: import useFormik from formik library
 
 function App() {
+  // TODO: add a const called formik assigned to useFormik()
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <p>
+        The app is ready! You can proceed with the task instructions. TODO:
+        build you form here.
+      </p>
     </div>
   );
 }
